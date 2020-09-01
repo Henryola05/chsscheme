@@ -1,3 +1,7 @@
+body {
+    font-family: 'Poppins';
+    font-style: normal;
+}
 header, footer {
     background: #072568;
     min-width: 500px;
@@ -67,12 +71,8 @@ margin-right: 50px;
     border-radius: 30px;
     margin-right: 20px;
   }
-body {
-    font-family: 'Poppins';
-    font-style: normal;
-}
 .support {
-    background-image: url(file:///C:/Users/OWNER/Documents/images/health-professionals.png);
+    background-image: url(images/health-professionals.png);
     background-repeat: no-repeat;
     background-position: right;
 }
@@ -81,7 +81,7 @@ body {
 }
 .health {
     background: rgba(7, 37, 104, 0.7);
-    background-image: url(file:///C:/Users/OWNER/Documents/images/background.png);
+    background-image: url(images/background.png);
     background-repeat: no-repeat;
     background-position: center;
     background-blend-mode: darken, normal;
@@ -196,7 +196,7 @@ main {
 .testimonial {
     height: 668px;
     background: rgba(225, 242, 255, 0.5);
-    background-image: url(file:///C:/Users/OWNER/Documents/images/Group.png);
+    background-image: url(images/Group.png);
     background-repeat: no-repeat;
     background-position: right;
 }
