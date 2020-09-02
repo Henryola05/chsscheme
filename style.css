@@ -347,3 +347,344 @@ margin-left: 20px;
     background: #072568;
     height: 100px;
  }
+ @media (min-width: 320px) and (max-width: 480px) {
+    body {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+    }
+    header{
+        background: #072568;
+        height: 100px;
+    }
+    .flex-container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+      .register1 {
+        width: 163px;
+height: 48px;
+        border-radius: 30px;
+        background: #072568;
+        text-align: center;
+        font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: capitalize;
+        color: #FCE6E3;
+     }
+      nav span {
+        display: inline-block;
+        padding: 20px 10px;
+        font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-right: 50px;
+      }
+      .p1 {
+        font-weight: normal;
+        font-size: 16px;
+line-height: 150%;
+        color: #181B21;
+      }
+      .h2s{
+        font-weight: bold;
+font-size: 24px;
+line-height: 36px;
+        color: #072568;
+      }
+      strong {
+        color: #F91647;
+      }
+      nav {
+        text-align: right;
+        flex-grow: 1;
+        margin-right: 20px;
+      }
+      .scheme{
+          margin-left: 50px;
+      }
+      .donate {
+        width: 150px;
+        height: 48px;
+          font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.05em;
+        text-transform: capitalize;
+        color: #072568;
+        background: #FCE6E3;
+        border-radius: 30px;
+        margin-right: 20px;
+      }
+    .support {
+        background-image: url(images/health-professionals.png);
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+    .support1{
+        margin: 98px;
+    }
+    .health {
+        background: rgba(7, 37, 104, 0.7);
+        background-image: url(images/background.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-blend-mode: darken, normal;
+    }
+    .health1 {
+        font-weight: bold;
+font-size: 24px;
+    color: #E1F2FF;
+    }
+    .donate4{
+        width: 40px;
+    height: 4px;
+    background: #FCE6E3;
+    }
+    .health h3 {
+        font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #E1F2FF;
+    }
+    .health p {
+        font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    }
+    main {
+        display: grid;
+        grid-template-columns: 500px 500px;
+        grid-template-rows: repeat(2, 250px);
+        grid-column-gap: 200px;
+        grid-row-gap: 100px;
+        margin-top: 40px;
+        grid-auto-rows: 500px;
+        justify-items: center;
+        justify-content: center;
+        align-items: stretch;
+        align-content: center;
+        grid-auto-rows: 500px;
+        grid-auto-flow: column;
+      }
+      .options {
+          text-align: center;
+      }
+      .logo {
+          background: #FCE6E3;
+          border-radius: 70px;
+          float: left;
+      }
+      .register {
+         width: 163px;
+         height: 48px;
+         border-radius: 30px;
+         background: #072568;
+         text-align: center;
+      }
+      #button {
+        background: #072568;
+        width: 163px;
+        cursor: pointer;
+        border-radius: 30px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 20px;
+        letter-spacing: 0.05em;
+        text-transform: capitalize;
+        color: #FCE6E3;
+      }
+      div h3 {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        text-transform: capitalize;
+        color: #072568;
+      }
+      div h2 {
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 48px;
+        color: #F91647;
+      }
+      .null {
+          color: white;
+      }
+      .container {
+          margin: 98px;
+      }
+      .container1 {
+        margin: 98px;
+    }
+      .div1 {
+        border: 1px solid white;
+        border-radius: 20px;
+        height: 314px;
+        margin: 100px 300px;
+        background: white;
+    }
+    .img {
+       float: left;
+       background: #000 
+    }
+    .testimonial {
+        height: 668px;
+        background: rgba(225, 242, 255, 0.5);
+        background-image: url(images/Group.png);
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+    .caption {
+        font-weight: bold;
+    font-size: 48px;
+    text-align: center;
+    color: #072568;
+    }
+    .peas {
+        font-weight: bold;
+    font-size: 48px;
+    color: #072568;
+    }
+    .p {
+        font-weight: normal;
+    font-size: 16px;
+    color: #2F3034;
+    text-align: justify;
+    }
+    .name {
+        font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: right;
+    color: #072568;
+    }
+    .create {
+        background: #FCE6E3;
+    border-radius: 10px;
+    width: 370px;
+    height: 126px;
+    }
+    .choose {
+        width: 370px;
+    height: 160px;
+    background: #FFE9AD;
+    border-radius: 10px;
+    }
+    .join {
+        width: 370px;
+    height: 126px;
+    background: #B5F1C7;
+    border-radius: 10px;
+    }
+    .how h3 {
+        font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #181B21;
+    margin-left: 20px;
+    }
+    .how p {
+        font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2F3034;
+    margin-left: 20px;
+    }
+    .img1 {
+        float: left;
+     }
+     .how {
+         margin-top: 51px;
+         margin-left: 93px;
+     }
+     .how h2 {
+        font-weight: bold;
+font-size: 24px;
+line-height: 36px;
+     }
+     .cards {
+        background: #FFFFFF;
+        border-radius: 10px;
+     }
+     .h3 {
+         padding-bottom: 25px;
+     }
+     .h3 h3 {
+        font-weight: 600;
+        font-size: 24px;
+        padding-top: 20px;
+        padding-left: 100px;
+        line-height: 36px;
+        text-transform: capitalize;
+        color: #072568;
+        text-align: left;
+     }
+     .top {
+        background: #0687FC;
+        color: #0687FC;
+        border-radius: 10px 10px 0px 0px;
+     }
+     .pot {
+        box-shadow: 4px 10px 10px rgba(6, 135, 252, 0.1);
+        width: 570px;
+        border-radius: 10px;
+     }
+     .we {
+            display: grid;
+            grid-template-columns: 570px 570px;
+            grid-template-rows: repeat(2, 250px);
+            grid-gap: 40px;
+            margin-top: 40px;
+            margin-bottom: 132px;
+     }
+     .pot .p {
+         width: 490px;
+         height: 71px;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 150%;
+        text-align: justify;
+        color: #2F3034;
+        margin-left: 39.65px;
+        margin-right: 39.65px;
+     }
+     .head {
+        width: 520px;
+        height: 128px;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 72px;
+        color: #072568;
+        margin-top: 185px;
+     }
+     .designed {
+         margin-left: 126px;
+         margin-right: 70px;
+         height: 974px;
+     }
+     .icons {
+        float: left;
+     }
+     .footer img {
+         float: right;
+         padding-top: 38px;
+         padding-right: 98px;
+     }
+     .footer p {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+        padding-left: 95px;
+        padding-top: 38px;
+     }
+     footer {
+        background: #072568;
+        height: 100px;
+     }
+  }
