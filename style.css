@@ -2,9 +2,9 @@ body {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
 }
-header, footer {
+header{
     background: #072568;
-    min-width: 500px;
+    height: 100px;
 }
 .flex-container {
     display: flex;
@@ -305,14 +305,8 @@ margin-left: 20px;
         grid-template-columns: 570px 570px;
         grid-template-rows: repeat(2, 250px);
         grid-gap: 40px;
-        margin-top: 44px;
-        grid-auto-rows: 500px;
-        justify-items: center;
-        justify-content: center;
-        align-items: stretch;
-        align-content: center;
-        grid-auto-rows: 500px;
-        grid-auto-flow: column;
+        margin-top: 40px;
+        margin-bottom: 132px;
  }
  .pot .p {
      width: 490px;
@@ -332,11 +326,30 @@ margin-left: 20px;
     font-size: 48px;
     line-height: 72px;
     color: #072568;
+    margin-top: 185px;
  }
  .designed {
      margin-left: 126px;
      margin-right: 70px;
+height: 850px;
  }
  .icons {
     float: left;
+ }
+ .footer img {
+     float: right;
+     padding-top: 38px;
+     padding-right: 98px;
+ }
+ .footer p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding-left: 95px;
+    padding-top: 38px;
+ }
+ footer {
+    background: #072568;
+    height: 100px;
  }
