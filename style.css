@@ -18,6 +18,8 @@ header{
     background: #072568;
     text-align: center;
     font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
 font-size: 16px;
 line-height: 24px;
 text-transform: capitalize;
@@ -28,6 +30,8 @@ text-transform: capitalize;
     padding: 20px 10px;
     font-weight: 500;
 font-size: 16px;
+font-family: 'Poppins', sans-serif;
+font-style: normal;
 line-height: 24px;
 text-transform: capitalize;
 color: #FFFFFF;
@@ -35,6 +39,8 @@ margin-right: 50px;
   }
   .p1 {
     font-weight: normal;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
     font-size: 20px;
     line-height: 150%;
     color: #181B21;
@@ -44,6 +50,8 @@ margin-right: 50px;
     height: 144px;
     font-weight: bold;
     font-size: 48px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
     line-height: 72px;
     color: #072568;
   }
@@ -63,6 +71,8 @@ margin-right: 50px;
       height: 48px;
       font-weight: 600;
     font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
     line-height: 24px;
     letter-spacing: 0.05em;
     text-transform: capitalize;
@@ -95,6 +105,8 @@ margin: 0px;
     font-weight: bold;
 font-size: 48px;
 line-height: 72px;
+font-family: 'Poppins', sans-serif;
+font-style: normal;
 text-align: center;
 color: #E1F2FF;
 }
@@ -105,6 +117,8 @@ background: #FCE6E3;
 }
 .health h3 {
     font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
 font-size: 20px;
 line-height: 30px;
 color: #E1F2FF;
@@ -112,6 +126,8 @@ color: #E1F2FF;
 .health p {
     font-weight: normal;
 font-size: 16px;
+font-family: 'Poppins', sans-serif;
+font-style: normal;
 line-height: 24px;
 color: #C1CFD6;
 }
@@ -153,6 +169,8 @@ main {
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
     margin-top: 20px;
     letter-spacing: 0.05em;
     text-transform: capitalize;
@@ -162,6 +180,8 @@ main {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
     text-transform: capitalize;
     color: #072568;
   }
@@ -170,6 +190,8 @@ main {
     font-size: 32px;
     line-height: 48px;
     color: #F91647;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
   }
   .null {
       color: white;
@@ -202,18 +224,25 @@ main {
 }
 .caption {
     font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
 font-size: 48px;
 text-align: center;
 color: #072568;
 }
 .peas {
     font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-family: 'Poppins';
 font-size: 48px;
 color: #072568;
 }
 .p {
     font-weight: normal;
 font-size: 16px;
+font-family: 'Poppins', sans-serif;
+font-style: normal;
 line-height: 150%;
 color: #2F3034;
 text-align: justify;
@@ -223,6 +252,8 @@ text-align: justify;
 font-size: 16px;
 line-height: 150%;
 text-align: right;
+font-family: 'Poppins', sans-serif;
+font-style: normal;
 color: #072568;
 }
 .create {
@@ -247,12 +278,16 @@ border-radius: 10px;
     font-weight: 600;
 font-size: 24px;
 line-height: 36px;
+font-family: 'Poppins', sans-serif;
+font-style: normal;
 color: #181B21;
 margin-left: 20px;
 }
 .how p {
     font-weight: normal;
 font-size: 16px;
+font-family: 'Poppins', sans-serif;
+font-style: normal;
 line-height: 24px;
 color: #2F3034;
 margin-left: 20px;
@@ -267,6 +302,8 @@ margin-left: 20px;
  .how h2 {
     font-weight: bold;
     font-size: 48px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
     line-height: 72px;
     color: #072568;
  }
@@ -283,6 +320,8 @@ margin-left: 20px;
  .h3 h3 {
     font-weight: 600;
     font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
     padding-top: 20px;
     padding-left: 100px;
     line-height: 36px;
@@ -312,6 +351,8 @@ margin-left: 20px;
      width: 490px;
      height: 71px;
     font-weight: normal;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
     font-size: 16px;
     line-height: 150%;
     text-align: justify;
@@ -326,6 +367,8 @@ margin-left: 20px;
     font-size: 48px;
     line-height: 72px;
     color: #072568;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
     margin-top: 185px;
  }
  .designed {
@@ -344,6 +387,8 @@ height: 850px;
  .footer p {
     font-weight: normal;
     font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
     line-height: 24px;
     color: #FFFFFF;
     padding-left: 95px;
