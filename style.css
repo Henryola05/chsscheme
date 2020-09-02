@@ -1,5 +1,5 @@
 body {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
 }
 header, footer {
@@ -272,4 +272,26 @@ margin-left: 20px;
  }
  .ola {
      width: 100%;
+ }
+ .cards {
+    background: #FFFFFF;
+    border-radius: 10px;
+ }
+ .h3 h3 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-transform: capitalize;
+    color: #072568;
+    padding-left: 90px;
+    margin-top: 0px;
+ }
+ .top {
+    background: #0687FC;
+    border-radius: 10px 10px 0px 0px;
+ }
+ .pot {
+    box-shadow: 4px 10px 10px rgba(6, 135, 252, 0.1);
+    width: 570px;
+    border-radius: 10px;
  }
