@@ -528,21 +528,6 @@ height: 850px;
     line-height: 24px;
     color: #C1CFD6;
     }
-    main {
-        display: grid;
-        grid-template-columns: 500px 500px;
-        grid-template-rows: repeat(2, 250px);
-        grid-column-gap: 200px;
-        grid-row-gap: 100px;
-        margin-top: 40px;
-        grid-auto-rows: 500px;
-        justify-items: center;
-        justify-content: center;
-        align-items: stretch;
-        align-content: center;
-        grid-auto-rows: 500px;
-        grid-auto-flow: column;
-      }
       .options {
           text-align: center;
       }
@@ -617,7 +602,7 @@ height: 850px;
         background: rgba(225, 242, 255, 0.5);
         background-image: url(images/Group.png);
         background-repeat: no-repeat;
-        background-position: right;
+        background-position: center;
     }
     .caption {
         font-weight: bold;
@@ -640,7 +625,6 @@ height: 850px;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
-    line-height: 150%;
     color: #2F3034;
     text-align: justify;
     }
