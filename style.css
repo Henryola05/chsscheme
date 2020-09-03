@@ -586,7 +586,6 @@ height: 850px;
     }
       .div1 {
         border: 1px solid white;
-        overflow:auto;
         border-radius: 20px;
         margin: 100px 300px;
         background: white;
