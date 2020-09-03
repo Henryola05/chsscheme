@@ -1,3 +1,4 @@
+@media (min-width: 1025px) and (max-width: 1280px) {
 body {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -398,6 +399,7 @@ height: 850px;
     background: #072568;
     height: 100px;
  }
+}
  @media (min-width: 320px) and (max-width: 480px) {
     body {
         font-family: 'Poppins', sans-serif;
