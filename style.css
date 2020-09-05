@@ -390,7 +390,7 @@ height: 850px;
     width:30%;
     margin-right: 20px;
   }
-  @media (min-width: 320px) and (max-width: 750px) {
+  @media (min-width: 750px) and (max-width: 1080px) {
     body {
         font-family: 'Poppins', sans-serif;
         font-style: normal;
