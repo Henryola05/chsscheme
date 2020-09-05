@@ -5,6 +5,7 @@ body {
 header{
     background: #072568;
     height: 100px;
+    width: 100%;
 }
 .flex-container {
     display: flex;
@@ -85,6 +86,7 @@ margin-right: 50px;
     background-image: url(images/health-professionals.png);
     background-repeat: no-repeat;
     background-position: right;
+    width: 100%;
 }
 .support1{
     margin: 98px;
@@ -96,7 +98,7 @@ margin-right: 50px;
     background-position: center;
     background-blend-mode: darken, normal;
 height: 668px;
-margin: 0px;
+width: 100%;
 }
 .health1 {
     padding-top: 132px;
@@ -192,7 +194,7 @@ color: #C1CFD6;
     border: 1px solid white;
     overflow:auto;
     border-radius: 20px;
-    width: 770px;
+    width: 60%;
     height: 314px;
     margin: 100px 300px;
     background: white;
@@ -207,6 +209,7 @@ color: #C1CFD6;
     background-image: url(images/Group.png);
     background-repeat: no-repeat;
     background-position: right;
+    width: 100%;
 }
 .caption {
     font-weight: bold;
@@ -283,7 +286,8 @@ margin-left: 20px;
  }
  .how {
      margin-top: 51px;
-     margin-left: 93px;
+     margin-left: 0px;
+     width: 100%;
  }
  .how h2 {
     font-weight: bold;
@@ -327,14 +331,14 @@ margin-left: 20px;
  .we {
         display: grid;
         width: 100%;
-        grid-template-columns: 570px 570px;
+        grid-template-columns: 515px 515px;
         grid-template-rows: repeat(2, 250px);
-        grid-gap: 40px;
+        grid-gap: 33px;
         margin-top: 40px;
         margin-bottom: 132px;
  }
  .pot .p {
-     width: 490px;
+     width: 470px;
      height: 71px;
     font-weight: normal;
     font-family: 'Poppins', sans-serif;
@@ -358,9 +362,10 @@ margin-left: 20px;
     margin-top: 185px;
  }
  .designed {
-     margin-left: 126px;
+     margin-left: 0px;
      margin-right: 70px;
 height: 850px;
+width: 100%;
  }
  .icons {
     float: left;
@@ -383,6 +388,7 @@ height: 850px;
  footer {
     background: #072568;
     height: 100px;
+    width: 100%;
  }
  .box{
     float:left;
@@ -395,11 +401,12 @@ height: 850px;
     body {
         font-family: 'Poppins', sans-serif;
         font-style: normal;
+        width: 100%;
     }
     header{
         background: #072568;
         height: 60px;
-        width: 1219px;
+        width: 100%;
     }
     .flex-container {
         display: flex;
@@ -468,15 +475,17 @@ height: 72px;
     .support {
         background-image: url(images/health-professionals.png);
         background-repeat: no-repeat;
-        background-position: right;
-        width: 1219px;
+        background-position: center;
+        background-size: 100%;
+        width: 100%;
     }
     .health {
         background: rgba(7, 37, 104, 0.7);
         background-image: url(header.png);
         background-repeat: no-repeat;
+        background-size: 200px;
         background-blend-mode: darken, normal;
-        width: 1219px;
+        width: 100%;
     }
     .health1 {
         font-weight: bold;
@@ -559,29 +568,23 @@ height: 72px;
       }
       .container {
           margin: 98px;
-          width: 1219px;
+          width: 100%;
       }
       .div1 {
-        border: 1px solid white;
-        overflow:auto;
+          float: right;
         border-radius: 20px;
-        width: 770px;
-        height: 314px;
-        margin: 100px 300px;
-        background: white;
-    }
-    .img {
-       float: left;
-       background: #000 
+        width: 275px;
+        height: 800px;
     }
     .testimonial {
-        width: 1219px;
-height: 779px;
+        height: 1200px;
         background: rgba(225, 242, 255, 0.5);
         background-image: url(images/Group.png);
         background-repeat: no-repeat;
-        background-position: right;
-        margin-top: 60px;
+        background-position: center;
+        background-size: 100%;
+        margin-top: 200px;
+        width: 100%;
     }
     .caption {
         font-weight: bold;
@@ -595,7 +598,6 @@ height: 779px;
         font-weight: bold;
         font-family: 'Poppins', sans-serif;
         font-style: normal;
-        font-family: 'Poppins';
     font-size: 48px;
     color: #072568;
     }
@@ -604,7 +606,6 @@ height: 779px;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
-    line-height: 150%;
     color: #2F3034;
     text-align: justify;
     }
@@ -658,8 +659,8 @@ height: 128px;
      }
      .how {
          margin-top: 51px;
-         margin-left: 18px;
-         width: 1219px;
+         margin-left: 0px;
+         width: 100%;
      }
      .how h2 {
         font-weight: bold;
@@ -697,23 +698,24 @@ height: 128px;
         border-radius: 10px 10px 0px 0px;
      }
      .pot {
-        box-shadow: 4px 10px 10px rgba(6, 135, 252, 0.1);
+        box-shadow: 10px 20px 20px rgba(6, 135, 252, 0.1);
         border-radius: 10px;
-        width: 340px;
+        width: 100%;
 height: 231px;
 margin-bottom: 30px;
+text-align: ;
      }
      .we {
             display: grid;
             width: 100%;
-            grid-template-columns: 340px;
+            grid-template-columns: 100%;
             grid-template-rows: repeat(4, 250px);
             grid-gap: 40px;
             margin-top: 40px;
             margin-bottom: 132px;
      }
      .pot .p {
-        width: 300px;
+        width: 97%;
         height: 121px;
         font-weight: normal;
         font-family: 'Poppins', sans-serif;
@@ -734,9 +736,9 @@ margin-bottom: 30px;
         font-style: normal;
      }
      .designed {
-         margin-left: 18px;
+         margin-left: 0px;
          margin-right: 70px;
-         width: 1219px;
+         width: 100%;
          height: 1157px;
          margin-bottom: 60px;
      }
@@ -763,7 +765,7 @@ margin-bottom: 30px;
      footer {
         background: #072568;
         height: 100px;
-        width: 1219px;
+        width: 100%;
      }
      .box{
         text-align: left;
