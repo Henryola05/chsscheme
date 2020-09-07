@@ -1,6 +1,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
+    width: 100%;
 }
 header{
     background: #072568;
@@ -13,7 +14,7 @@ header{
     flex-wrap: wrap;
   }
   .register1 {
-      width: 163px;
+      width: 13%;
     height: 48px;
     border-radius: 30px;
     background: #072568;
@@ -25,6 +26,8 @@ font-size: 16px;
 line-height: 24px;
 text-transform: capitalize;
     color: #FCE6E3;
+    margin-bottom: 10px;
+    margin-top: 20px;
  }
   nav span {
     display: inline-block;
@@ -47,8 +50,7 @@ margin-right: 50px;
     color: #181B21;
   }
   .h2s{
-    width: 520px;
-    height: 144px;
+    width: 40%;
     font-weight: bold;
     font-size: 48px;
     font-family: 'Poppins', sans-serif;
@@ -67,8 +69,23 @@ margin-right: 50px;
   .scheme{
       margin-left: 50px;
   }
+  .donate1 {
+      width: 85%;
+      height: 48px;
+      font-weight: 600;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #072568;
+    background: #FCE6E3;
+    border-radius: 30px;
+    margin-right: 20px;
+  }
   .donate {
-      width: 154px;
+      width: 13%;
       height: 48px;
       font-weight: 600;
     font-size: 16px;
@@ -87,9 +104,11 @@ margin-right: 50px;
     background-repeat: no-repeat;
     background-position: right;
     width: 100%;
+    height: 668px;
 }
-.support1{
-    margin: 98px;
+.support1 {
+    padding-top: 150px;
+    padding-left: 60px;
 }
 .health {
     background: rgba(7, 37, 104, 0.7);
@@ -113,7 +132,7 @@ text-align: center;
 color: #E1F2FF;
 }
 .donate4{
-    width: 43.18px;
+    width: 10%;
 height: 4px;
 background: #FCE6E3;
 }
@@ -142,7 +161,7 @@ color: #C1CFD6;
       float: left;
   }
   .register {
-     width: 163px;
+     width: 13%;
      height: 48px;
      border-radius: 30px;
      background: #072568;
@@ -150,7 +169,7 @@ color: #C1CFD6;
   }
   #button {
     background: #072568;
-    width: 163px;
+    width: 51%;
     cursor: pointer;
     border-radius: 30px;
     font-weight: 600;
@@ -201,7 +220,7 @@ color: #C1CFD6;
 }
 .img {
    float: left;
-   background: #000 
+   background: #000;
 }
 .testimonial {
     height: 668px;
@@ -248,17 +267,17 @@ color: #072568;
 .create {
     background: #FCE6E3;
 border-radius: 10px;
-width: 370px;
+width:  29%;
 height: 126px;
 }
 .choose {
-    width: 370px;
+    width: 29%;
 height: 160px;
 background: #FFE9AD;
 border-radius: 10px;
 }
 .join {
-    width: 370px;
+    width: 29%;
 height: 126px;
 background: #B5F1C7;
 border-radius: 10px;
@@ -286,8 +305,8 @@ margin-left: 20px;
  }
  .how {
      margin-top: 51px;
-     margin-left: 0px;
-     width: 100%;
+     margin-left: 60px;
+     width: 90%;
  }
  .how h2 {
     font-weight: bold;
@@ -331,14 +350,14 @@ margin-left: 20px;
  .we {
         display: grid;
         width: 100%;
-        grid-template-columns: 515px 515px;
+        grid-template-columns: 50% 50%;
         grid-template-rows: repeat(2, 250px);
         grid-gap: 33px;
         margin-top: 40px;
         margin-bottom: 132px;
  }
  .pot .p {
-     width: 470px;
+     width: 90%;
      height: 71px;
     font-weight: normal;
     font-family: 'Poppins', sans-serif;
@@ -351,7 +370,7 @@ margin-left: 20px;
     margin-right: 39.65px;
  }
  .head {
-    width: 520px;
+    width: 41%;
     height: 128px;
     font-weight: bold;
     font-size: 48px;
@@ -362,10 +381,10 @@ margin-left: 20px;
     margin-top: 185px;
  }
  .designed {
-     margin-left: 0px;
+     margin-left: 60px;
      margin-right: 70px;
 height: 850px;
-width: 100%;
+width: 90%;
  }
  .icons {
     float: left;
@@ -396,13 +415,18 @@ width: 100%;
     width:30%;
     margin-right: 20px;
   }
-  
+  .sup {
+      display: none;
+  }
   @media (min-width: 360px) and (max-width: 800px) {
     body {
         font-family: 'Poppins', sans-serif;
         font-style: normal;
         width: 100%;
     }
+    .img {
+        width: 100%;
+     }
     header{
         background: #072568;
         height: 60px;
@@ -413,8 +437,11 @@ width: 100%;
         justify-content: left;
         flex-wrap: wrap;
       }
+      .sup {
+          display: none;
+      }
       .register1 {
-          width: 163px;
+          width: 50%;
         height: 48px;
         border-radius: 30px;
         background: #072568;
@@ -436,10 +463,10 @@ width: 100%;
         font-style: normal;
         font-size: 20px;
         color: #181B21;
+        text-align: left;
       }
       .h2s{
-        width: 340px;
-height: 72px;
+        width: 100%;
         font-weight: bold;
         font-size: 24px;
         font-family: 'Poppins', sans-serif;
@@ -458,7 +485,7 @@ height: 72px;
           margin-left: 10px;
       }
       .donate {
-          width: 154px;
+          width: 50%;
           height: 48px;
           font-weight: 600;
         font-size: 16px;
@@ -473,11 +500,13 @@ height: 72px;
         margin-right: 20px;
       }
     .support {
-        background-image: url(images/health-professionals.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: 100%;
         width: 100%;
+        height: 750px;
+        background-color: #FFFFFF;
+    }
+    .support1 {
+        padding-top: 50px;
+        padding-left: 60px;
     }
     .health {
         background: rgba(7, 37, 104, 0.7);
@@ -486,21 +515,26 @@ height: 72px;
         background-size: 200px;
         background-blend-mode: darken, normal;
         width: 100%;
+        height: 1000px;
     }
     .health1 {
+        width: 50%;
+        padding-top: 32px;
+        margin-left: 90px;
         font-weight: bold;
-    font-size: 24px;
+    font-size: 18px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     text-align: left;
     color: #E1F2FF;
     }
     .donate4{
-        width: 43.18px;
+        width: 20%;
     height: 4px;
     background: #FCE6E3;
     }
     .health h3 {
+        width: 100%;
         font-weight: 500;
         font-family: 'Poppins', sans-serif;
         font-style: normal;
@@ -513,8 +547,7 @@ height: 72px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     color: #C1CFD6;
-    width: 340px;
-height: 72px;
+    width: 100%;
     }
       .options {
           text-align: center;
@@ -525,7 +558,7 @@ height: 72px;
           float: left;
       }
       .register {
-         width: 163px;
+         width: 20%;
          height: 48px;
          border-radius: 30px;
          background: #072568;
@@ -533,7 +566,7 @@ height: 72px;
       }
       #button {
         background: #072568;
-        width: 163px;
+        width: 80px;
         cursor: pointer;
         border-radius: 30px;
         font-weight: 600;
@@ -573,7 +606,7 @@ height: 72px;
       .div1 {
           float: right;
         border-radius: 20px;
-        width: 275px;
+        width: 34%;
         height: 800px;
     }
     .testimonial {
@@ -621,17 +654,17 @@ height: 72px;
     .create {
         background: #FCE6E3;
     border-radius: 10px;
-    width: 340px;
+    width: 100%;
 height: 128px;
     }
     .choose {
-        width: 340px;
+        width: 100%;
 height: 154px;
     background: #FFE9AD;
     border-radius: 10px;
     }
     .join {
-        width: 340px;
+        width: 100%;
 height: 128px;
     background: #B5F1C7;
     border-radius: 10px;
@@ -639,7 +672,6 @@ height: 128px;
     .how h3 {
         font-weight: 600;
     font-size: 24px;
-    line-height: 36px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     color: #181B21;
@@ -650,7 +682,6 @@ height: 128px;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
-    line-height: 24px;
     color: #2F3034;
     margin-left: 20px;
     }
@@ -703,7 +734,6 @@ height: 128px;
         width: 100%;
 height: 231px;
 margin-bottom: 30px;
-text-align: ;
      }
      .we {
             display: grid;
@@ -724,13 +754,13 @@ text-align: ;
         line-height: 150%;
         text-align: left;
         color: #2F3034;
-        margin-left: 20px;
+        margin-left: 10px;
         margin-right: 20px;
      }
      .head {
-        width: 217px;
+        width: 100%;
         font-weight: bold;
-        font-size: 24px;
+        font-size: 48px;
         color: #072568;
         font-family: 'Poppins', sans-serif;
         font-style: normal;
@@ -744,7 +774,7 @@ text-align: ;
      }
      .icons {
         float: left;
-        width: 50px;
+        width: 20%;
         height: 50px;
      }
      .footer img {
@@ -769,6 +799,6 @@ text-align: ;
      }
      .box{
         text-align: left;
-        width: 340px;
+        width: 100%;
       }
   }
