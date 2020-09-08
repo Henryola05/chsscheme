@@ -215,7 +215,8 @@ color: #C1CFD6;
     border-radius: 20px;
     width: 60%;
     height: 314px;
-    margin: 100px 300px;
+    margin-left: 20%;
+    margin-top: 100px;
     background: white;
 }
 .img {
@@ -391,7 +392,6 @@ width: 90%;
  }
  .footer img {
      float: right;
-     padding-top: 38px;
      padding-right: 98px;
  }
  .footer p {
@@ -399,10 +399,9 @@ width: 90%;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
-    line-height: 24px;
     color: #FFFFFF;
-    padding-left: 95px;
-    padding-top: 38px;
+    padding-left: 70px;
+    padding-top: 20px;
  }
  footer {
     background: #072568;
@@ -418,7 +417,7 @@ width: 90%;
   .sup {
       display: none;
   }
-  @media (min-width: 360px) and (max-width: 800px) {
+  @media (min-width: 300px) and (max-width: 800px) {
     body {
         font-family: 'Poppins', sans-serif;
         font-style: normal;
@@ -582,7 +581,6 @@ width: 90%;
       div h3 {
         font-weight: 500;
         font-size: 16px;
-        line-height: 24px;
         font-family: 'Poppins', sans-serif;
         font-style: normal;
         text-transform: capitalize;
@@ -591,7 +589,6 @@ width: 90%;
       div h2 {
         font-weight: bold;
         font-size: 32px;
-        line-height: 48px;
         color: #F91647;
         font-family: 'Poppins', sans-serif;
         font-style: normal;
@@ -604,9 +601,9 @@ width: 90%;
           width: 100%;
       }
       .div1 {
-          float: right;
+          float: left;
         border-radius: 20px;
-        width: 34%;
+        width: 200px;
         height: 800px;
     }
     .testimonial {
@@ -741,7 +738,7 @@ margin-bottom: 30px;
             grid-template-columns: 100%;
             grid-template-rows: repeat(4, 250px);
             grid-gap: 40px;
-            margin-top: 40px;
+            margin-top: 70px;
             margin-bottom: 132px;
      }
      .pot .p {
@@ -779,18 +776,13 @@ margin-bottom: 30px;
      }
      .footer img {
          float: right;
-         padding-top: 38px;
-         padding-right: 98px;
      }
      .footer p {
         font-weight: normal;
-        font-size: 16px;
+        font-size: 14px;
         font-family: 'Poppins', sans-serif;
         font-style: normal;
-        line-height: 24px;
         color: #FFFFFF;
-        padding-left: 95px;
-        padding-top: 38px;
      }
      footer {
         background: #072568;
@@ -800,5 +792,9 @@ margin-bottom: 30px;
      .box{
         text-align: left;
         width: 100%;
+      }
+      .col-xs-4 h3 {
+          width: 85px;
+          height: 48px;
       }
   }
