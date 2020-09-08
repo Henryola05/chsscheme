@@ -100,9 +100,6 @@ margin-right: 50px;
     margin-right: 20px;
   }
 .support {
-    background-image: url(images/health-professionals.png);
-    background-repeat: no-repeat;
-    background-position: right;
     width: 100%;
     height: 668px;
 }
@@ -411,11 +408,12 @@ width: 90%;
  .box{
     float:left;
     text-align: left;
-    width:30%;
+    width: 31%;
     margin-right: 20px;
   }
   .sup {
-      display: none;
+      float: right;
+      padding-top: 100px;
   }
   @media (min-width: 300px) and (max-width: 800px) {
     body {
@@ -437,7 +435,7 @@ width: 90%;
         flex-wrap: wrap;
       }
       .sup {
-          display: none;
+          width: 100%;
       }
       .register1 {
           width: 50%;
@@ -500,7 +498,7 @@ width: 90%;
       }
     .support {
         width: 100%;
-        height: 750px;
+        height: 900px;
         background-color: #FFFFFF;
     }
     .support1 {
@@ -514,7 +512,7 @@ width: 90%;
         background-size: 200px;
         background-blend-mode: darken, normal;
         width: 100%;
-        height: 1000px;
+        height: 1500px;
     }
     .health1 {
         width: 50%;
@@ -729,30 +727,28 @@ height: 128px;
         box-shadow: 10px 20px 20px rgba(6, 135, 252, 0.1);
         border-radius: 10px;
         width: 100%;
-height: 231px;
+height: 300px;
 margin-bottom: 30px;
      }
      .we {
             display: grid;
             width: 100%;
             grid-template-columns: 100%;
-            grid-template-rows: repeat(4, 250px);
+            grid-template-rows: repeat(4, 300px);
             grid-gap: 40px;
             margin-top: 70px;
             margin-bottom: 132px;
      }
      .pot .p {
         width: 97%;
-        height: 121px;
+        height: 120px;
         font-weight: normal;
         font-family: 'Poppins', sans-serif;
         font-style: normal;
         font-size: 16px;
-        line-height: 150%;
         text-align: left;
         color: #2F3034;
         margin-left: 10px;
-        margin-right: 20px;
      }
      .head {
         width: 100%;
@@ -766,7 +762,7 @@ margin-bottom: 30px;
          margin-left: 0px;
          margin-right: 70px;
          width: 100%;
-         height: 1157px;
+         height: 1300px;
          margin-bottom: 60px;
      }
      .icons {
