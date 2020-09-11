@@ -1,8 +1,6 @@
-function myFunction() {
-    var x = document.getElementById("myLinks");
-    if (x.style.display === "block") {
-      x.style.display = "none";
-    } else {
-      x.style.display = "block";
-    }
-  }
+const icon = document.getElementById('icon');
+const myLinks = document.getElementById('myLinks');
+
+icon.addEventListener('click', () => {
+  myLinks.classList.toggle('show');
+});

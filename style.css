@@ -11,6 +11,22 @@ body {
     justify-content: center;
     flex-wrap: wrap;
 }
+.myLinks {
+  text-align: right;
+  flex-grow: 1;
+}
+.myLinks a {
+    display: inline-block;
+    padding: 20px 10px;
+    font-weight: 500;
+font-size: 16px;
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+line-height: 24px;
+text-transform: capitalize;
+color: #FFFFFF;
+margin-right: 50px;
+  }
   .register1 {
       width: 13%;
     height: 48px;
@@ -27,18 +43,6 @@ text-transform: capitalize;
     margin-bottom: 10px;
     margin-top: 20px;
  }
-  .myLinks a {
-    display: inline-block;
-    padding: 20px 10px;
-    font-weight: 500;
-font-size: 16px;
-font-family: 'Poppins', sans-serif;
-font-style: normal;
-line-height: 24px;
-text-transform: capitalize;
-color: #FFFFFF;
-margin-right: 50px;
-  }
   .p1 {
     font-weight: normal;
     font-family: 'Poppins', sans-serif;
@@ -60,12 +64,8 @@ margin-right: 50px;
   strong {
     color: #F91647;
   }
-  .myLinks {
-    text-align: right;
-    flex-grow: 1;
-  }
-  .scheme{
-      margin-left: 50px;
+  #scheme{
+      margin-left: 10px;
   }
   .donate1 {
       width: 85%;
@@ -432,7 +432,7 @@ width: 90%;
     .flex-container .myLinks {
         display: none;
       }
-      #scheme {
+      .flex-container a {
         color: #FCE6E3;
         padding: 14px 16px;
         text-decoration: none;
