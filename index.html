@@ -2,26 +2,31 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width , initial-scale=1">
     <link rel="stylesheet" href="style.css" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></link>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script type="text/javascript" src="main.js"></script>
   </head>
   <body>
       <header>
         <div class="flex-container">
             <img src="images\logo.svg" id="scheme">
-            <div class="myLinks">
-                    <a href="#About">About Us</a>
-                    <a href="#Impact">Impact</a>
-                    <a href="#FAQs">FAQs</a>
-                    <a href="#Donate"><button class="donate1">Donate</button></span>
-                    </div>
-                    <a href="javascript:void(0);" class="icon" onclick="myFunction()" id="scheme">
-                        <i class="fa fa-bars"></i>
-                      </a>
+            <input type="checkbox" class="toggler">
+            <div class="hamburger"><div></div></div>
+            <div class="menu">
+                <div>
+                <div>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Impact</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#" class="donate1">Donate</a></li>
+                  </ul>
+                </div>
+            </div>
+        </div>
+        </div>
             </div>
     </header>
       <main>
@@ -200,15 +205,5 @@
             <img src="images/social-icons.svg">
           </div>
         </footer>
-        <script>
-            function myFunction() {
-              var x = document.getElementById("myLinks");
-              if (x.style.display === "block") {
-                x.style.display = "none";
-              } else {
-                x.style.display = "block";
-              }
-            }
-            </script>
   </body>
 </html>
