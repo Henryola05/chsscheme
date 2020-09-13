@@ -16,7 +16,7 @@ body {
 }
 ul li {
     display: inline-block;
-    padding: 20px 10px;
+    padding: 30px 10px;
     font-weight: 500;
 font-size: 16px;
 font-family: 'Poppins', sans-serif;
@@ -86,6 +86,7 @@ text-transform: capitalize;
     background: #FCE6E3;
     border-radius: 30px;
     margin-right: 20px;
+    margin-left: 20px;
   }
   .donate {
       width: 13%;
@@ -434,9 +435,6 @@ width: 90%;
         height: 100px;
         width: 100%;
     }
-    .flex-container ul {
-        display: none;
-      }
      ul a {
         color: #FCE6E3;
         padding: 14px 16px;
