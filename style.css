@@ -532,7 +532,7 @@ width: 90%;
         background-size: 100% 700px;
         background-blend-mode: multiply, normal;
         width: 100%;
-        height: 700px;
+        height: 800px;
     }
     .health1 {
         width: 60%;
@@ -822,7 +822,7 @@ margin-bottom: 30px;
         padding-left: 50px;
     padding-top: 10px;
     position: absolute;
-    left: 3%;
+    left: 1%;
      }
      footer {
         background: #072568;
