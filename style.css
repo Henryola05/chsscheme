@@ -463,6 +463,9 @@ width: 90%;
         background-color: #072568;
         color: #FCE6E3;
       }
+      input .form-control {
+          width: 100%;
+      }
       .sup {
           width: 100%;
       }
@@ -612,6 +615,7 @@ width: 90%;
         color: #F91647;
         font-family: 'Poppins', sans-serif;
         font-style: normal;
+        width: 100%;
       }
       .null {
           color: white;
@@ -765,6 +769,7 @@ margin-bottom: 30px;
      }
      .container1 {
        margin-left: 20px;
+       margin-right: 20px;
        margin-top: 10px;
    }
      .we {
@@ -839,7 +844,6 @@ margin-bottom: 30px;
         width: 100%;
     float:left;
     text-align: left;
-    margin-right: 0px;
       }
       .col-xs-4 h3 {
           width: 85px;
