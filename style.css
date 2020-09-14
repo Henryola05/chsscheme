@@ -706,11 +706,12 @@ height: 128px;
     }
     .how p {
         font-weight: normal;
-    font-size: 14px;
+    font-size: 16px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     color: #2F3034;
     margin-left: 20px;
+    width: 100%;
     }
     .img1 {
         float: left;
@@ -793,6 +794,7 @@ margin-bottom: 30px;
         color: #072568;
         font-family: 'Poppins', sans-serif;
         font-style: normal;
+        margin-bottom: 20px;
      }
      .designed {
          margin-left: 20px;
