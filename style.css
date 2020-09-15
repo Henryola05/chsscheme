@@ -781,7 +781,7 @@ margin-bottom: 30px;
             grid-template-rows: repeat(4, 300px);
             grid-gap: 40px;
             margin-top: 70px;
-            margin-bottom: 132px;
+            margin-bottom: 12px;
      }
      .pot .p {
         width: 97%;
@@ -808,7 +808,7 @@ margin-bottom: 30px;
          margin-left: 20px;
          margin-right: 70px;
          width: 90%;
-         height: 1400px;
+         height: 1900px;
          margin-bottom: 60px;
      }
      .icon {
