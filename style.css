@@ -426,7 +426,7 @@ width: 90%;
   }
   .sup {
       float: right;
-      padding-top: 60px;
+      padding-top: 100px;
   }
   @media (min-width: 300px) and (max-width: 800px) {
     body {
@@ -469,6 +469,7 @@ width: 90%;
       }
       .sup {
           width: 100%;
+          padding-bottom: 20px;
       }
       .register1 {
           width: 40%;
@@ -501,7 +502,6 @@ width: 90%;
         font-style: normal;
         color: #072568;
         text-align: left;
-        margin-top: 40px;
       }
       strong {
         color: #F91647;
