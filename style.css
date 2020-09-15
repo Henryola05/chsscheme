@@ -21,6 +21,7 @@ ul li {
 font-size: 16px;
 font-family: 'Poppins', sans-serif;
 font-style: normal;
+line-height: 24px;
 text-transform: capitalize;
 color: #FFFFFF;
 margin-right: 50px;
@@ -41,6 +42,7 @@ margin-right: 50px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
 font-size: 16px;
+line-height: 24px;
 text-transform: capitalize;
     color: #FCE6E3;
     margin-bottom: 20px;
@@ -52,6 +54,7 @@ text-transform: capitalize;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-size: 20px;
+    line-height: 150%;
     color: #181B21;
   }
   .h2s{
@@ -61,6 +64,7 @@ text-transform: capitalize;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     text-align: left;
+    line-height: 72px;
     color: #072568;
   }
   strong {
@@ -95,6 +99,7 @@ text-transform: capitalize;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
+    line-height: 24px;
     letter-spacing: 0.05em;
     text-transform: capitalize;
     color: #072568;
@@ -125,6 +130,7 @@ width: 100%;
     margin-right: 423px;
     font-weight: bold;
 font-size: 48px;
+line-height: 72px;
 font-family: 'Poppins', sans-serif;
 font-style: normal;
 text-align: center;
@@ -140,6 +146,7 @@ background: #FCE6E3;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
 font-size: 20px;
+line-height: 30px;
 color: #E1F2FF;
 }
 .health p {
@@ -147,6 +154,7 @@ color: #E1F2FF;
 font-size: 16px;
 font-family: 'Poppins', sans-serif;
 font-style: normal;
+line-height: 24px;
 color: #C1CFD6;
 }
   .options {
@@ -172,6 +180,7 @@ color: #C1CFD6;
     border-radius: 30px;
     font-weight: 600;
     font-size: 16px;
+    line-height: 24px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     margin-top: 20px;
@@ -182,6 +191,7 @@ color: #C1CFD6;
   div h3 {
     font-weight: 500;
     font-size: 16px;
+    line-height: 24px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     text-transform: capitalize;
@@ -190,6 +200,7 @@ color: #C1CFD6;
   div h2 {
     font-weight: bold;
     font-size: 32px;
+    line-height: 48px;
     color: #F91647;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -247,12 +258,14 @@ color: #072568;
 font-size: 16px;
 font-family: 'Poppins', sans-serif;
 font-style: normal;
+line-height: 150%;
 color: #2F3034;
 text-align: justify;
 }
 .name {
     font-weight: normal;
 font-size: 16px;
+line-height: 150%;
 text-align: right;
 font-family: 'Poppins', sans-serif;
 font-style: normal;
@@ -279,6 +292,7 @@ border-radius: 10px;
 .how h3 {
     font-weight: 600;
 font-size: 24px;
+line-height: 36px;
 font-family: 'Poppins', sans-serif;
 font-style: normal;
 color: #181B21;
@@ -289,6 +303,7 @@ margin-left: 20px;
 font-size: 16px;
 font-family: 'Poppins', sans-serif;
 font-style: normal;
+line-height: 24px;
 color: #2F3034;
 margin-left: 20px;
 }
@@ -305,6 +320,7 @@ margin-left: 20px;
     font-size: 48px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
+    line-height: 72px;
     color: #072568;
  }
  .ola {
@@ -324,6 +340,7 @@ margin-left: 20px;
     font-style: normal;
     padding-top: 20px;
     padding-left: 100px;
+    line-height: 36px;
     text-transform: capitalize;
     color: #072568;
     text-align: left;
@@ -354,6 +371,7 @@ margin-left: 20px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-size: 16px;
+    line-height: 150%;
     text-align: justify;
     color: #2F3034;
     margin-left: 39.65px;
@@ -364,6 +382,7 @@ margin-left: 20px;
     height: 128px;
     font-weight: bold;
     font-size: 48px;
+    line-height: 72px;
     color: #072568;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -407,7 +426,7 @@ width: 90%;
   }
   .sup {
       float: right;
-      padding-top: 100px;
+      padding-top: 60px;
   }
   @media (min-width: 300px) and (max-width: 800px) {
     body {
@@ -461,6 +480,7 @@ width: 90%;
         font-family: 'Poppins', sans-serif;
         font-style: normal;
     font-size: 16px;
+    line-height: 24px;
     text-transform: capitalize;
         color: #FCE6E3;
         margin-right: 20px;
@@ -481,6 +501,7 @@ width: 90%;
         font-style: normal;
         color: #072568;
         text-align: left;
+        margin-top: 40px;
       }
       strong {
         color: #F91647;
@@ -492,6 +513,7 @@ width: 90%;
         font-size: 16px;
         font-family: 'Poppins', sans-serif;
         font-style: normal;
+        line-height: 24px;
         letter-spacing: 0.05em;
         text-transform: capitalize;
         color: #072568;
@@ -516,7 +538,7 @@ width: 90%;
         background-size: 100% 900px;
         background-blend-mode: multiply, normal;
         width: 100%;
-        height: 900px;
+        height: 600px;
     }
     .health1 {
         width: 80%;
@@ -573,6 +595,7 @@ width: 90%;
         border-radius: 30px;
         font-weight: 600;
         font-size: 16px;
+        line-height: 24px;
         font-family: 'Poppins', sans-serif;
         font-style: normal;
         margin-top: 20px;
@@ -650,6 +673,7 @@ width: 90%;
     .name {
         font-weight: normal;
     font-size: 16px;
+    line-height: 150%;
     text-align: right;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -709,6 +733,7 @@ height: 128px;
         font-size: 48px;
         font-family: 'Poppins', sans-serif;
         font-style: normal;
+        line-height: 72px;
         color: #072568;
         margin-left: 20px;
      }
@@ -727,6 +752,7 @@ height: 128px;
         font-style: normal;
         padding-top: 10px;
         padding-left: 100px;
+        line-height: 36px;
         text-transform: capitalize;
         color: #072568;
         text-align: left;
