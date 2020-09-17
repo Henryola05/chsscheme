@@ -554,9 +554,11 @@ width: 90%;
     color: #E1F2FF;
     }
     .donate4{
-        width: 20%;
-    height: 7px;
+        width: 15%;
+    height: 5px;
     background: #FCE6E3;
+    border-radius: 10px;
+    margin-bottom: 20px;
     }
     .health h3 {
         width: 100%;
@@ -565,6 +567,7 @@ width: 90%;
         font-style: normal;
     font-size: 20px;
     color: #E1F2FF;
+    margin-bottom: 5px;
     }
     .health p {
         font-weight: normal;
@@ -711,7 +714,8 @@ height: 128px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     color: #181B21;
-    margin-left: 20px;
+    margin-left: 45px;
+    padding-top: 20px;
     }
     .how p {
         font-weight: normal;
@@ -720,10 +724,12 @@ height: 128px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     color: #2F3034;
-    margin-left: 20px;
+    margin-left: 45px;
     }
     .img1 {
         float: left;
+        margin-left: 10px;
+        margin-top: 14px;
      }
      .how {
          margin-top: 51px;
@@ -780,7 +786,7 @@ height: 128px;
             display: grid;
             width: 100%;
             grid-template-columns: 100%;
-            grid-template-rows: repeat(4, 350px);
+            grid-template-rows: repeat(4, 400px);
             grid-gap: 40px;
             margin-top: 70px;
             margin-bottom: 12px;
