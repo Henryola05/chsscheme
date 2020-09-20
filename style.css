@@ -752,7 +752,7 @@ height: 128px;
      .h3 {
         background: #FFFFFF;
         border-radius: 10px;
-         padding-bottom: 15px;
+         padding-bottom: 5px;
      }
      .h3 h3 {
         font-weight: 600;
@@ -830,7 +830,7 @@ height: 128px;
      .icons {
         float: left;
         width: 20%;
-        height: 50px;
+        height: 40px;
      }
      .footer img {
      position: absolute;
