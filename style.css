@@ -649,7 +649,7 @@ width: 90%;
         background-repeat: no-repeat;
         background-position: center;
         background-size: 100%;
-        margin-top: 300px;
+        margin-top: 50px;
         width: 100%;
     }
     .caption {
@@ -752,7 +752,7 @@ height: 128px;
      .h3 {
         background: #FFFFFF;
         border-radius: 10px;
-         padding-bottom: 5px;
+         padding-bottom: 15px;
      }
      .h3 h3 {
         font-weight: 600;
@@ -818,8 +818,7 @@ height: 128px;
          margin-left: 20px;
          margin-right: 70px;
          width: 90%;
-         height: 1482px;
-         margin-bottom: 60px;
+         height: 1600px;
      }
      .icon {
          margin-top: 25px;
@@ -830,7 +829,7 @@ height: 128px;
      .icons {
         float: left;
         width: 20%;
-        height: 40px;
+        height: 50px;
      }
      .footer img {
      position: absolute;
