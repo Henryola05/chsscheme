@@ -72,10 +72,14 @@ text-transform: capitalize;
   }
   #scheme{
       float: left;
+      margin-left: 20px;
+  }
+  .donate2 {
+    color: #072568;
   }
   .donate1 {
-      width: 100%;
-      height: 48px;
+      width: 70%;
+      height: 30px;
       font-weight: 600;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
@@ -189,7 +193,7 @@ color: #C1CFD6;
     color: #FCE6E3;
   }
   div h3 {
-    font-weight: 500;
+    font-weight: bold;
     font-size: 16px;
     line-height: 24px;
     font-family: 'Poppins', sans-serif;
@@ -206,8 +210,9 @@ color: #C1CFD6;
     font-style: normal;
   }
   .null {
-      color: white;
-  }
+    color: white;
+    visibility: hidden;
+}
   .container {
       margin: 98px;
   }
@@ -296,7 +301,7 @@ line-height: 36px;
 font-family: 'Poppins', sans-serif;
 font-style: normal;
 color: #181B21;
-margin-left: 20px;
+margin-left: 35px;
 }
 .how p {
     font-weight: normal;
@@ -305,7 +310,7 @@ font-family: 'Poppins', sans-serif;
 font-style: normal;
 line-height: 24px;
 color: #2F3034;
-margin-left: 20px;
+margin-left: 35px;
 }
 .img1 {
     float: left;
@@ -339,7 +344,7 @@ margin-left: 20px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     padding-top: 20px;
-    padding-left: 100px;
+    padding-left: 150px;
     line-height: 36px;
     text-transform: capitalize;
     color: #072568;
@@ -396,11 +401,12 @@ width: 90%;
  }
  .icons {
     float: left;
+    margin-left: 39.65px;
  }
  .footer img {
      position: absolute;
      left: 75%;
-     padding-top: 40px;
+     padding-top: 35px;
  }
  .footer p {
     font-weight: normal;
@@ -411,7 +417,7 @@ width: 90%;
     padding-left: 70px;
     padding-top: 40px;
     position: absolute;
-    left: 10%;
+    left: 1%;
  }
  footer {
     background: #072568;
@@ -463,9 +469,6 @@ width: 90%;
       .flex-container a:hover {
         background-color: #072568;
         color: #FCE6E3;
-      }
-      input .form-control {
-          width: 100%;
       }
       .sup {
           width: 100%;
@@ -609,11 +612,12 @@ width: 90%;
         color: #FCE6E3;
       }
       div h3 {
-        font-weight: 500;
+        font-weight: bold;
         font-size: 16px;
         font-family: 'Poppins', sans-serif;
         font-style: normal;
         text-transform: capitalize;
+        line-height: 24px;
         color: #072568;
       }
       div h2 {
@@ -626,8 +630,8 @@ width: 90%;
         text-align: center;
       }
       .null {
-          color: white;
-      }
+        display: none;
+    }
       .container {
           margin: 98px;
           width: 100%;
@@ -649,7 +653,6 @@ width: 90%;
         background-repeat: no-repeat;
         background-position: center;
         background-size: 100%;
-        margin-top: 50px;
         width: 100%;
     }
     .caption {
@@ -657,8 +660,11 @@ width: 90%;
         font-family: 'Poppins', sans-serif;
         font-style: normal;
     font-size: 48px;
-    text-align: center;
+    line-height: 36px;
     color: #072568;
+    margin-left: 10%;
+    padding-top: 60px;
+    text-align: left;
     }
     .peas {
         font-weight: bold;
@@ -716,6 +722,7 @@ height: 128px;
     color: #181B21;
     margin-left: 45px;
     padding-top: 20px;
+    margin-top: 30px;
     }
     .how p {
         font-weight: normal;
@@ -725,6 +732,7 @@ height: 128px;
     font-style: normal;
     color: #2F3034;
     margin-left: 45px;
+    margin-right: 6px;
     }
     .img1 {
         float: left;
@@ -760,7 +768,7 @@ height: 128px;
         font-family: 'Poppins', sans-serif;
         font-style: normal;
         padding-top: 10px;
-        padding-left: 60px;
+        padding-left: 75px;
         line-height: 30px;
         text-transform: capitalize;
         color: #072568;
@@ -787,8 +795,8 @@ height: 128px;
             width: 100%;
             grid-template-columns: 100%;
             grid-template-rows: repeat(4, 300px);
-            grid-gap: 40px;
-            margin-top: 70px;
+            grid-gap: 70px;
+            margin-top: 50px;
             margin-bottom: 12px;
      }
      .pot .p {
@@ -802,6 +810,13 @@ height: 128px;
         color: #2F3034;
         margin-left: 10px;
      }
+     .donate1 {
+      color: #FCE6E3;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      display: block;
+     }
      .head {
         width: 70%;
         height: 72px;
@@ -812,7 +827,7 @@ height: 128px;
         font-family: 'Poppins', sans-serif;
         font-style: normal;
         margin-bottom: 20px;
-        margin-top: 40px;
+        margin-top: 120px;
      }
      .designed {
          margin-left: 20px;
@@ -828,8 +843,8 @@ height: 128px;
      }
      .icons {
         float: left;
-        width: 20%;
         height: 50px;
+        margin-left: 10px;
      }
      .footer img {
      position: absolute;
