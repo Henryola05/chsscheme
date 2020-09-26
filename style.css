@@ -665,6 +665,7 @@ width: 90%;
     margin-left: 10%;
     padding-top: 60px;
     text-align: left;
+    width: 90%;
     }
     .peas {
         font-weight: bold;
@@ -753,6 +754,7 @@ height: 128px;
         color: #072568;
         margin-left: 20px;
         text-align: left;
+        width: 90%;
      }
      .ola {
          width: 100%;
@@ -831,7 +833,7 @@ height: 128px;
      }
      .designed {
          margin-left: 20px;
-         margin-right: 70px;
+         margin-right: 0px;
          width: 90%;
          height: 1600px;
      }
@@ -860,7 +862,7 @@ height: 128px;
         padding-left: 50px;
     padding-top: 10px;
     position: absolute;
-    left: 0.1%;
+    left: 5%;
      }
      footer {
         background: #072568;
