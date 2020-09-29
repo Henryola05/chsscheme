@@ -37,9 +37,6 @@ margin-right: 50px;
       margin-left: 20px;
       margin-top: 15px;
   }
-  .donate2 {
-    color: #072568;
-  }
   .donate1 {
       width: 70%;
       height: 30px;
@@ -234,6 +231,24 @@ background-image: url(images/chss_logo_standalone.png);
         width: 100%;
         text-align: center;
       }
+     .donate1 {
+      color: #FF0000;
+      text-decoration: none;
+      display: block;
+      width: 80%;
+      background: none;
+      height: 30px;
+      font-weight: 600;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    border-radius: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+     }
       #scheme{
         margin-left: 10px;
     }
