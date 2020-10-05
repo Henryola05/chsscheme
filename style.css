@@ -25,9 +25,11 @@ line-height: 24px;
 text-transform: capitalize;
 color: #FFFFFF;
 margin-right: 50px;
+text-decoration: none;
   }
   li a {
       color: white;
+      text-decoration: none;
   }
   li a:hover {
     color: white;
@@ -37,6 +39,7 @@ margin-right: 50px;
     height: 48px;
     border-radius: 30px;
     background: #072568;
+    border-color:#072568;
     text-align: center;
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
@@ -85,6 +88,7 @@ text-transform: capitalize;
     line-height: 24px;
     letter-spacing: 0.05em;
     text-transform: capitalize;
+    border-color: #FCE6E3;
     color: #072568;
     background: #FCE6E3;
     border-radius: 30px;
@@ -105,6 +109,7 @@ text-transform: capitalize;
     letter-spacing: 0.05em;
     text-transform: capitalize;
     color: #072568;
+    border-color: #FCE6E3;
     background: #FCE6E3;
     border-radius: 30px;
     margin-right: 20px;
@@ -178,6 +183,7 @@ color: #C1CFD6;
     background: #072568;
     width: 70%;
     height: 50px;
+    border-color:#072568;
     cursor: pointer;
     border-radius: 30px;
     font-weight: 600;

@@ -3,14 +3,25 @@ body {
     font-style: normal;
     width: 100%;
 }
-  .input-group h3 {
+#form {
+    width: 30%;
+    height: 30px;
+    margin-bottom: 30px;
+}
+  .form-check label {
     font-weight: bold;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 20px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     text-transform: capitalize;
     color: #072568;
+    text-align: left;
+    padding-left: 10px;
+  }
+  #drop {
+      padding-top: 200px;
+      width: 100%;
+      padding-left: 600px;
   }
   #dash h3 {
     font-family: 'Poppins', sans-serif;
@@ -34,20 +45,28 @@ text-transform: capitalize;
 font-style: normal;
 font-weight: bold;
 font-size: 47px;
-line-height: 72px;
+line-height: 47px;
 color: #F91647;
     font-family: 'Poppins', sans-serif;
   }
-  .container {
-      margin: 0px;
-      height: 695px;
+  #null {
+      visibility: hidden;
+  }
+  div h1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #181B21;
   }
   #button {
     background: #072568;
-    width: 50%;
+    width: 10%;
     height: 48px;
     cursor: pointer;
     border-radius: 30px;
+    border-color:#072568;
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
@@ -58,19 +77,39 @@ color: #F91647;
     text-transform: capitalize;
     color: #FCE6E3;
   }
-  .null {
-    color: white;
-    visibility: hidden;
-}
 #sidenav {
     background: #072568;
     height: 695px;
+    width: 19%;
+    float: left;
 }
-.dashboard {
+#sidenav h3 {
+    margin-left: 20px;
+    padding-top: 12px;
+    float: left;
+}
+#side {
     background: #FCE6E3;
+    height: 50px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+#dash {
+    height: 55px;
+    background: #072568;
+    width: 100%;
+    border-color: #072568;
+    border: 0px;
+}
+.circle{
+    margin-left: 80px;
+    margin-bottom: 70px;
+    padding-top: 30px;
 }
 .img {
     float: left;
+    margin-left: 23px;
+    padding-top: 10px;
 }
   @media (min-width: 300px) and (max-width: 800px) {
     body {
@@ -111,13 +150,6 @@ color: #F91647;
         letter-spacing: 0.05em;
         text-transform: capitalize;
         color: #FCE6E3;
-      }
-      .null {
-        display: none;
-    }
-      .container {
-          margin: 98px;
-          width: 100%;
       }
       * {
         margin: 0;
