@@ -155,7 +155,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
         float: left;
     }
     .input-group .form-control {
-        width: 170%;
+        width: 120%;
     }
     .form-control {
         display: block;
