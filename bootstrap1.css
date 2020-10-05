@@ -71,11 +71,6 @@ button, input, optgroup, select, textarea {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
 }
-.input-group .form-check-input {
-    float: left;
-    width: 120%;
-    margin-bottom: 0;
-}
 .form-control {
     width: 20%;
     height: 30px;
@@ -112,5 +107,16 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 @media (min-width: 300px) and (max-width: 800px) {
     .input-group .form-control {
         width: 120%;
+    }
+    .form-control {
+        width: 20%;
+        height: 20px;
+        float: left;
+    }
+    .img-responsive {
+        display: block;
+        padding-top: 80px;
+        padding-left: 90px;
+        float: left;
     }
 }

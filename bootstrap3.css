@@ -159,3 +159,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .col-sm-2 {
     width: 16.66666667%;
 }
+@media (min-width: 300px) and (max-width: 800px) {
+    .img-responsive {
+        display: block;
+        padding-top: 80px;
+        padding-left: 90px;
+        padding-right: 60px;
+        float: left;
+    }
+}

@@ -107,7 +107,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 @media (min-width: 300px) and (max-width: 800px) {
     .input-group .form-control {
-        width: 120%;
+        width: 170%;
+    }
+    .img-responsive {
+        display: block;
+        padding-top: 80px;
+        padding-left: 90px;
+        padding-right: 60px;
+        float: left;
     }
 }
 @media (min-width: 768px) {

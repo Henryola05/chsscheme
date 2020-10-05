@@ -105,11 +105,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     display: table;
     content: " ";
 }
-@media (min-width: 300px) and (max-width: 800px) {
-    .input-group .form-control {
-        width: 120%;
-    }
-}
 @media (min-width: 768px) {
 .col-sm-4 {
     width: 26%;
@@ -151,4 +146,32 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 .col-sm-2 {
     width: 16.66666667%;
+}
+@media (min-width: 300px) and (max-width: 800px) {
+    .img-responsive {
+        display: block;
+        padding-top: 80px;
+        padding-left: 90px;
+        float: left;
+    }
+    .input-group .form-control {
+        width: 170%;
+    }
+    .form-control {
+        display: block;
+        height: 100px;
+        padding: 6px 12px;
+        font-size: 14px;
+        line-height: 1.42857143;
+        color: #555;
+        background-color: #fff;
+        background-image: none;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+        box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+        -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+        -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+        transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    }
 }

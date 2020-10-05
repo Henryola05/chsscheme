@@ -110,11 +110,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     display: table;
     content: " ";
 }
-@media (min-width: 300px) and (max-width: 800px) {
-    .input-group .form-control {
-        width: 120%;
-    }
-}
 @media (min-width: 768px) {
 .col-sm-4 {
     width: 33.33333333%;
@@ -159,4 +154,16 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 .col-sm-2 {
     width: 16.66666667%;
+}
+@media (min-width: 300px) and (max-width: 800px) {
+    .img-responsive {
+        display: block;
+        padding-top: 80px;
+        padding-left: 40px;
+        padding-right: 20px;
+        float: left;
+    }
+    .input-group .form-control {
+        width: 170%;
+}
 }
