@@ -118,23 +118,30 @@ color: #F91647;
     color: #FCE6E3;
     margin-left: 20px;
   }
-#sidenav {
-    background: #072568;
-    height: 695px;
-    width: 19%;
-    float: left;
-}
-#sidenav h3 {
-    margin-left: 55px;
-    padding-top: 12px;
-}
+  #sidenav {
+      background: #072568;
+      height: 695px;
+      width: 20%;
+      float: left;
+  }
+  #sidenav h3 {
+      margin-left: 20px;
+      padding-top: 12px;
+      float: left;
+  }
 #side {
     background: #FCE6E3;
     height: 50px;
-    margin-bottom: 10px;
+    width: 100%;
+    border-color: #FCE6E3;
+    border: 0px;
 }
 #dash {
-    height: 55px;
+    height: 60px;
+    background: #072568;
+    width: 100%;
+    border-color: #072568;
+    border: 0px;
 }
 .circle{
     margin-left: 80px;
