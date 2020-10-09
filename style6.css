@@ -1,0 +1,212 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    width: 100%;
+    background: #F9F9F9;
+}
+.flex-container {
+    display: none;
+}
+  #drop {
+    display: block;
+    padding-left: 50px;
+    padding-top: 65px;
+    width: 70%;
+    float: left;
+  }
+  .date {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #072568;
+  }
+  #null {
+      visibility: hidden;
+  }
+  .per {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #072568;
+  }
+  .par {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+text-transform: capitalize;
+color: #072568;
+padding-top: 20px;
+  }
+  .shadow {
+    background: #FFFFFF;
+    height: 530px;
+    box-shadow: 4px 10px 10px rgba(6, 135, 252, 0.1);
+    border-radius: 10px;
+    padding-left: 50px;
+    padding-top: 20px;
+  }
+  #button {
+      margin-top: 20px;
+    background: #072568;
+    border-radius: 30px;
+    height: 48px;
+    width: 120%;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.05em;
+text-transform: capitalize;
+color: #FCE6E3;
+  }
+  .wer {
+      margin-bottom: 50px;
+  }
+  .kit {
+      float: left;
+  }
+  a {
+      text-decoration: none;
+  }
+  .kite {
+    font-family: 'Poppins', sans-serif;
+      padding-left: 50px;
+      padding-top: 10px;
+      font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+text-transform: capitalize;
+color: #181B21;
+  }
+  #man {
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+  #dash h3 {
+    font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+text-transform: capitalize;
+    color: white;
+  }
+  #side h3 {
+    font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    color: #072568;
+  }
+  #sidenav {
+      background: #072568;
+      height: 695px;
+      width: 20%;
+      float: left;
+  }
+  #sidenav h3 {
+      margin-left: 20px;
+      padding-top: 12px;
+      float: left;
+  }
+#side {
+    background: #FCE6E3;
+    height: 50px;
+    width: 100%;
+    border-color: #FCE6E3;
+    border: 0px;
+}
+#dash {
+    height: 60px;
+    background: #072568;
+    width: 100%;
+    border-color: #072568;
+    border: 0px;
+}
+.circle{
+    margin-left: 80px;
+    margin-bottom: 70px;
+    padding-top: 30px;
+}
+.img {
+    float: left;
+    margin-left: 23px;
+    padding-top: 10px;
+}
+  @media (min-width: 300px) and (max-width: 800px) {
+    body {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        width: 100%;
+    }
+    #null {
+        display: none;
+    }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .date {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        text-transform: capitalize;
+        color: #072568;
+        width: 120%;
+      }
+      #sidenav {
+        display: none;
+      }
+      .flex-container{
+          background: #072568;
+          height: 60px;
+          width: 100%;
+          display: flex;
+          flex-wrap: wrap;
+      }
+      #scheme {
+        padding-left: 10px;
+        float: left;
+    }
+    .shadow {
+      background: #FFFFFF;
+      height: 700px;
+      box-shadow: 4px 10px 10px rgba(6, 135, 252, 0.1);
+      border-radius: 10px;
+      padding-left: 30px;
+      padding-top: 20px;
+    }
+    .head {
+      font-family: 'Poppins', sans-serif;
+      font-style: normal;
+font-weight: 600;
+font-size: 15.5733px;
+line-height: 23px;
+text-align: center;
+letter-spacing: 0.05em;
+text-transform: capitalize;
+color: #FFFFFF;
+padding-left: 100px;
+padding-top: 20px;
+    }
+    #drop {
+        padding-top: 50px;
+        width: 100%;
+        padding-left: 20px;
+        padding-bottom: 50px;
+    }
+    }

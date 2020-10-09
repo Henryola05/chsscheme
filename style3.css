@@ -4,11 +4,18 @@ body {
     width: 100%;
 }
 #form {
-    width: 30%;
+    width: 35%;
     height: 30px;
     margin-bottom: 30px;
+    float: left;
 }
-  .form-check label {
+#form label {
+    width: 22%;
+    height: 40px;
+    margin-bottom: 30px;
+    float: left;
+}
+  .form-check-label {
     font-weight: bold;
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
@@ -17,6 +24,25 @@ body {
     color: #072568;
     text-align: left;
     padding-left: 10px;
+  }
+  .form-check-label1 {
+    background: #072568;
+    width: 10%;
+    height: 60px;
+    cursor: pointer;
+    border-radius: 30px;
+    border-color:#072568;
+    font-weight: 600;
+    font-size: 16px;
+    padding-top: 7px;
+    padding-left: 10px;
+    line-height: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    margin-top: 20px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #FCE6E3;
   }
   #drop {
       padding-top: 200px;
@@ -59,23 +85,6 @@ color: #F91647;
     font-size: 24px;
     line-height: 36px;
     color: #181B21;
-  }
-  #button {
-    background: #072568;
-    width: 10%;
-    height: 48px;
-    cursor: pointer;
-    border-radius: 30px;
-    border-color:#072568;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    margin-top: 20px;
-    letter-spacing: 0.05em;
-    text-transform: capitalize;
-    color: #FCE6E3;
   }
 #sidenav {
     background: #072568;
@@ -129,6 +138,12 @@ color: #F91647;
         text-transform: capitalize;
         line-height: 24px;
         color: #072568;
+      }
+      #form label {
+          width: 32%;
+          height: 40px;
+          margin-bottom: 30px;
+          float: left;
       }
       div h2 {
         font-weight: bold;
