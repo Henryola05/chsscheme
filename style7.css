@@ -72,6 +72,16 @@ color: #2F3034;
 margin-left: 40px;
 padding-top: 5px;
   }
+  .lop1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 150%;
+color: #2F3034;
+margin-left: 40px;
+padding-top: 5px;
+  }
   .se {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -86,11 +96,32 @@ color: #072568;
       margin-bottom: 30px;
       float: left;
   }
+  #c {
+    padding-left: 370px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
   #form1 label {
       width: 22%;
       height: 40px;
       margin-bottom: 30px;
       float: left;
+  }
+  #form2 {
+      width: 55%;
+      height: 30px;
+      margin-bottom: 30px;
+      float: left;
+      padding-left: 360px;
+  }
+  #form2 label {
+      width: 115%;
+      height: 40px;
+      margin-bottom: 30px;
+      float: left;
+  }
+  label span {
+    visibility: hidden;
   }
   .form-check-label1 {
     background: #072568;
@@ -108,7 +139,6 @@ color: #072568;
     font-style: normal;
     margin-top: 20px;
     letter-spacing: 0.05em;
-    text-transform: capitalize;
     color: #FCE6E3;
   }
   .jop {
@@ -118,6 +148,33 @@ color: #072568;
       width: 37%;
       height: 30px;
       margin-bottom: 30px;
+      float: left;
+  }
+  #form3 {
+      width: 24%;
+      height: 30px;
+      margin-bottom: 30px;
+      float: left;
+  }
+  #form4 {
+      width: 24%;
+      height: 30px;
+      margin-bottom: 30px;
+      float: left;
+  }
+  #qwe {
+    margin-left: 200px;
+  }
+  #form3 label {
+      width: 50%;
+      height: 40px;
+      margin-bottom: 20px;
+      float: left;
+  }
+  #form4 label {
+      width: 50%;
+      height: 40px;
+      margin-bottom: 20px;
       float: left;
   }
     .form-check label {
@@ -130,6 +187,57 @@ color: #072568;
       text-align: left;
       padding-left: 10px;
     }
+    .u {
+      font-family: 'Poppins', sans-serif;
+      font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+padding-left: 110px;
+width: 78%;
+color: #2F3034;
+    }
+    .yo {
+      font-family: 'Poppins', sans-serif;
+      font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+text-align: center;
+color: #072568;
+padding-top: 40px;
+    }
+    .u span {
+      font-weight: bold;
+      color: #072568;
+    }
+    .form-check1 label {
+      font-weight: bold;
+      font-size: 16px;
+      font-family: 'Poppins', sans-serif;
+      font-style: normal;
+      text-transform: capitalize;
+      color: #072568;
+      text-align: left;
+      padding-left: 10px;
+      padding-top: 5px;
+    }
+    .c {
+      font-family: 'Poppins', sans-serif;
+      font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+color: #2F3034;
+width: 80%;
+padding-left: 200px;
+    }
+    .c span {
+      font-weight: bold;
+      color: #072568;
+    }
   .we {
          display: grid;
          width: 100%;
@@ -139,11 +247,20 @@ color: #072568;
          margin-top: 40px;
          margin-bottom: 25px;
   }
+  .wez {
+         display: grid;
+         width: 100%;
+         grid-template-columns: 45% 45%;
+         grid-template-rows: repeat(1, 220px);
+         grid-gap: 40px;
+         margin-top: 40px;
+         margin-bottom: 25px;
+  }
   .we1 {
          display: grid;
          width: 100%;
          grid-template-columns: 45% 45%;
-         grid-template-rows: repeat(1, 270px);
+         grid-template-rows: repeat(2, 270px);
          grid-gap: 40px;
          margin-top: 40px;
          margin-bottom: 25px;
@@ -161,17 +278,55 @@ color: #072568;
          display: grid;
          width: 100%;
          grid-template-columns: 100%;
-         grid-template-rows: repeat(1, 1100px);
+         grid-template-rows: repeat(1, 1150px);
+         grid-gap: 40px;
+         margin-top: 40px;
+         margin-bottom: 25px;
+  }
+  .ze1 {
+         display: grid;
+         width: 100%;
+         grid-template-columns: 100%;
+         grid-template-rows: repeat(1, 900px);
+         grid-gap: 40px;
+         margin-top: 40px;
+         margin-bottom: 25px;
+  }
+  .ae {
+         display: grid;
+         width: 100%;
+         grid-template-columns: 100%;
+         grid-template-rows: repeat(1, 300px);
+         grid-gap: 40px;
+         margin-top: 40px;
+         margin-bottom: 25px;
+  }
+  .be {
+         display: grid;
+         width: 100%;
+         grid-template-columns: 100%;
+         grid-template-rows: repeat(1, 300px);
          grid-gap: 40px;
          margin-top: 40px;
          margin-bottom: 25px;
   }
   .o {
     float: left;
-    margin-left: 200px;
+    padding-left: 150px;
+  }
+  .o1 {
+    float: left;
+    margin-left: 30px;
   }
   .s {
     padding-left: 400px;
+  }
+  .s2 {
+    padding-left: 150px;
+    float: left;
+  }
+  .s1 {
+    padding-left: 550px;
   }
   .m {
     float: left;
@@ -197,6 +352,24 @@ line-height: 150%;
 color: #2F3034;
   }
   .z {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 150%;
+color: #2F3034;
+margin-bottom: 20px;
+  }
+  .z1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 150%;
+color: #2F3034;
+margin-bottom: 20px;
+  }
+  .z2 {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
 font-weight: normal;
@@ -267,6 +440,7 @@ font-size: 24px;
 line-height: 36px;
 text-align: center;
 color: #072568;
+text-transform: capitalize;
 }
 .kit {
     float: left;
@@ -276,11 +450,152 @@ color: #072568;
     margin-left: 23px;
     padding-top: 10px;
 }
+li {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 150%;
+color: #2F3034;
+}
+.pop {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+text-transform: capitalize;
+color: #072568;
+padding-top: 10px;
+}
   @media (min-width: 300px) and (max-width: 800px) {
     body {
         font-family: 'Poppins', sans-serif;
         font-style: normal;
         width: 100%;
+    }
+    #form3 {
+        width: 100%;
+        height: 30px;
+        margin-bottom: 30px;
+        float: left;
+    }
+    .a {
+      font-family: 'Poppins', sans-serif;
+      font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: left;
+    color: #072568;
+    text-transform: capitalize;
+    }
+    #form4 {
+        width: 100%;
+        height: 30px;
+        margin-bottom: 30px;
+        float: left;
+    }
+    #form {
+        width: 100%;
+        height: 30px;
+        margin-bottom: 30px;
+        float: left;
+    }
+    .form-check-label1 {
+      background: #072568;
+      width: 10%;
+      height: 60px;
+      cursor: pointer;
+      border-radius: 30px;
+      border-color:#072568;
+      font-weight: 600;
+      font-size: 16px;
+      padding-top: 7px;
+      padding-left: 15px;
+      line-height: 24px;
+      font-family: 'Poppins', sans-serif;
+      font-style: normal;
+      margin-top: 0px;
+      letter-spacing: 0.05em;
+      color: #FCE6E3;
+    }
+    #qwe {
+      margin-left: 20px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .u {
+      font-family: 'Poppins', sans-serif;
+      font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+text-align: left;
+padding-left: 10px;
+width: 100%;
+color: #2F3034;
+    }
+    .y {
+      font-family: 'Poppins', sans-serif;
+      font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: #181B21;
+    }
+    .yo {
+      font-family: 'Poppins', sans-serif;
+      font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+text-align: left;
+color: #072568;
+padding-top: 40px;
+padding-left: 10px;
+    }
+    .u span {
+      font-weight: bold;
+      color: #072568;
+    }
+    .c {
+      font-family: 'Poppins', sans-serif;
+      font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+color: #2F3034;
+width: 90%;
+padding-left: 30px;
+    }
+    #form1 {
+        width: 71%;
+        height: 30px;
+        margin-bottom: 30px;
+        float: left;
+    }
+    #c {
+      padding-left: 100px;
+      padding-top: 20px;
+      padding-bottom: 10px;
+    }
+    #form1 label {
+        width: 54%;
+        height: 40px;
+        margin-bottom: 30px;
+        float: left;
+    }
+    .wez {
+           display: grid;
+           width: 100%;
+           grid-template-columns: 95%;
+           grid-template-rows: repeat(2, 220px);
+           grid-gap: 40px;
+           margin-top: 40px;
+           margin-bottom: 25px;
     }
     .lop {
       font-family: 'Poppins', sans-serif;
@@ -292,12 +607,53 @@ color: #072568;
   margin-left: 35px;
   padding-top: 5px;
     }
+    .lop1 {
+      font-family: 'Poppins', sans-serif;
+      font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 150%;
+  color: #2F3034;
+  margin-left: 35px;
+  padding-top: 5px;
+    }
+    #form2 {
+        width: 80%;
+        height: 30px;
+        margin-bottom: 30px;
+        float: left;
+        padding-left: 100px;
+    }
+    #form2 label {
+        width: 70%;
+        height: 40px;
+        margin-bottom: 30px;
+        float: left;
+    }
     .m {
       float: left;
       margin-left: 0px;
     }
     .n {
       padding-left: 140px;
+    }
+    .o {
+      float: left;
+      padding-left: 5px;
+    }
+    .s {
+      padding-left: 160px;
+    }
+    .o1 {
+      float: left;
+      margin-left: 5px;
+    }
+    .s2 {
+      padding-left: 5px;
+      float: left;
+    }
+    .s1 {
+      padding-left: 170px;
     }
       * {
         margin: 0;
@@ -345,11 +701,47 @@ color: #072568;
              margin-top: 40px;
              margin-bottom: 25px;
       }
-      .qe {
+      .ae {
              display: grid;
              width: 100%;
              grid-template-columns: 90%;
+             grid-template-rows: repeat(1, 450px);
+             grid-gap: 40px;
+             margin-top: 40px;
+             margin-bottom: 25px;
+      }
+      .be {
+             display: grid;
+             width: 100%;
+             grid-template-columns: 90%;
+             grid-template-rows: repeat(1, 300px);
+             grid-gap: 40px;
+             margin-top: 40px;
+             margin-bottom: 25px;
+      }
+      .qe {
+             display: grid;
+             width: 100%;
+             grid-template-columns: 95%;
              grid-template-rows: repeat(2, 250px);
+             grid-gap: 40px;
+             margin-top: 40px;
+             margin-bottom: 25px;
+      }
+      .ze {
+             display: grid;
+             width: 100%;
+             grid-template-columns: 100%;
+             grid-template-rows: repeat(1, 1500px);
+             grid-gap: 40px;
+             margin-top: 40px;
+             margin-bottom: 25px;
+      }
+      .ze1 {
+             display: grid;
+             width: 100%;
+             grid-template-columns: 100%;
+             grid-template-rows: repeat(1, 1400px);
              grid-gap: 40px;
              margin-top: 40px;
              margin-bottom: 25px;
@@ -361,7 +753,8 @@ color: #072568;
     #drop {
         padding-top: 50px;
         width: 100%;
-        padding-left: 40px;
+        padding-left: 30px;
+        padding-right: 10px;
         padding-bottom: 50px;
     }
     }

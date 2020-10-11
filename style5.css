@@ -40,6 +40,9 @@ background: #0687FC;
     padding-left: 20px;
     margin-bottom: 10px;
 }
+a {
+  text-decoration: none;
+}
 .h3 h3 {
    font-family: 'Poppins', sans-serif;
    text-transform: capitalize;
@@ -321,7 +324,7 @@ color: #F91647;
              display: grid;
              width: 100%;
              grid-template-columns: 85%;
-             grid-template-rows: repeat(3, 120px);
+             grid-template-rows: repeat(3, 135px);
              grid-gap: 40px;
              margin-top: 20px;
              margin-bottom: 32px;
@@ -400,6 +403,7 @@ padding-top: 20px;
   color: #2F3034;
   font-family: 'Poppins', sans-serif;
     padding-top: 20px;
+    padding-right: 16px;
     }
     #previous {
       background: #FCE6E3;

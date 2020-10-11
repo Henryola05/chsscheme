@@ -105,7 +105,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     display: table;
     content: " ";
 }
-.form-control1 {
+.form-control2 {
     display: block;
     width: 400%;
     height: 150px;
@@ -123,9 +123,37 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
     transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
+.form-control {
+    display: block;
+    width: 100%;
+    height: 150px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.form-control1 {
+    width: 20%;
+    height: 30px;
+    float: left;
+}
 @media (min-width: 300px) and (max-width: 800px) {
     .input-group .form-control {
         width: 200%;
+    }
+    .form-control1 {
+        width: 20%;
+        height: 30px;
+        float: left;
     }
     .img-responsive {
         display: block;
@@ -134,7 +162,25 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
         padding-right: 60px;
         float: left;
     }
-    .form-control1 {
+    .form-control2 {
+        display: block;
+        width: 150%;
+        height: 150px;
+        padding: 6px 12px;
+        font-size: 14px;
+        line-height: 1.42857143;
+        color: #555;
+        background-color: #fff;
+        background-image: none;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+        box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+        -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+        -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+        transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    }
+    .form-control {
         display: block;
         width: 150%;
         height: 150px;
@@ -175,7 +221,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     margin-bottom: 0;
 }
 .form-control {
-    width: 20%;
+    width: 150%;
     height: 30px;
     float: left;
 }
