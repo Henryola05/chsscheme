@@ -124,7 +124,7 @@ text-transform: capitalize;
 }
 .health {
     background: rgba(7, 37, 104, 0.7);
-    background-image: url(images/background.png);
+    background-image: url(images/background.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-blend-mode: darken, normal;
@@ -229,7 +229,7 @@ color: #C1CFD6;
     overflow:auto;
     border-radius: 20px;
     width: 60%;
-    height: 314px;
+    height: 306px;
     margin-left: 20%;
     margin-top: 100px;
     background: white;
@@ -241,7 +241,7 @@ color: #C1CFD6;
 .testimonial {
     height: 668px;
     background: rgba(225, 242, 255, 0.5);
-    background-image: url(images/Group.png);
+    background-image: url(images/Group.svg);
     background-repeat: no-repeat;
     background-position: right;
     width: 100%;
@@ -318,6 +318,8 @@ margin-left: 35px;
 }
 .img1 {
     float: left;
+    margin-top: 5px;
+    margin-left: 5px;
  }
  .how {
      margin-top: 51px;
@@ -438,12 +440,24 @@ width: 90%;
       float: right;
       padding-top: 100px;
   }
+  ul {
+    margin-left: 450px;
+  }
+  #deem {
+    visibility: hidden;
+  }
   @media (min-width: 300px) and (max-width: 800px) {
     body {
         font-family: 'Poppins', sans-serif;
         font-style: normal;
         width: 100%;
     }
+    #deem {
+      padding-top: 30px;
+      padding-left: 90px;
+      float: right;
+      visibility: visible;
+  }
     .img {
         width: 100%;
      }
@@ -454,6 +468,11 @@ width: 90%;
         height: 100px;
         width: 100%;
     }
+    #deem {
+      padding-top: 30px;
+      padding-left: 90px;
+      float: right;
+  }
      ul a {
         color: #FCE6E3;
         padding: 14px 16px;
@@ -541,7 +560,7 @@ width: 90%;
     }
     .health {
         background: rgba(109, 146, 224, 0.7);
-        background-image: url(images/header.png);
+        background-image: url(images/header.svg);
         background-repeat: no-repeat;
         background-size: 100% 900px;
         background-blend-mode: multiply, normal;
@@ -653,7 +672,7 @@ width: 90%;
     .testimonial {
         height: 1200px;
         background: rgba(225, 242, 255, 0.5);
-        background-image: url(images/Group.png);
+        background-image: url(images/Group.svg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: 100%;

@@ -120,6 +120,11 @@ text-transform: capitalize;
       padding-top: 12px;
       float: left;
   }
+  #sidenav2 h3 {
+      margin-left: 20px;
+      padding-top: 12px;
+      float: left;
+  }
 #side {
     background: #FCE6E3;
     height: 50px;
@@ -136,6 +141,11 @@ text-transform: capitalize;
 }
 .circle{
     margin-left: 80px;
+    margin-bottom: 70px;
+    padding-top: 30px;
+}
+.circle1{
+    margin-left: 130px;
     margin-bottom: 70px;
     padding-top: 30px;
 }
@@ -171,6 +181,12 @@ text-transform: capitalize;
       #sidenav {
         display: none;
       }
+      #sidenav2 {
+          background: #072568;
+          height: 812px;
+          width: 100%;
+          float: left;
+      }
       .flex-container{
           background: #072568;
           height: 60px;
@@ -179,9 +195,14 @@ text-transform: capitalize;
           flex-wrap: wrap;
       }
       #scheme {
-        padding-left: 10px;
+        padding-left: 20px;
+        padding-top: 15px;
         float: left;
     }
+    #deem {
+      padding-left: 90px;
+      float: right;
+  }
     .shadow {
       background: #FFFFFF;
       height: 700px;

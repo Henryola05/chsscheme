@@ -370,7 +370,8 @@ color: #F91647;
           flex-wrap: wrap;
       }
       #scheme {
-        padding-left: 10px;
+        padding-top: 15px;
+        padding-left: 20px;
         float: left;
     }
     .head {
@@ -422,6 +423,10 @@ padding-top: 20px;
       text-transform: capitalize;
       color: #072568;
     }
+    #deem {
+      padding-left: 90px;
+      float: right;
+  }
     #button {
       background: #072568;
       width: 150%;

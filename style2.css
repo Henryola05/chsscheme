@@ -120,6 +120,12 @@ color: #F91647;
     height: 100px;
     width: 100%;
  }
+ ul {
+   margin-left: 450px;
+ }
+ #deem {
+   visibility: hidden;
+ }
   @media (min-width: 300px) and (max-width: 800px) {
     body {
         font-family: 'Poppins', sans-serif;
@@ -237,6 +243,12 @@ color: #F91647;
     position: absolute;
     left: 0.2%;
      }
+     #deem {
+       padding-top: 30px;
+       padding-left: 90px;
+       float: right;
+       visibility: visible;
+   }
      footer {
         background: #072568;
         height: 100px;

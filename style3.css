@@ -154,6 +154,11 @@ color: #F91647;
         width: 100%;
         text-align: left;
       }
+      #deem {
+        padding-top: 30px;
+        padding-left: 90px;
+        float: right;
+    }
       .flex-container{
           background: #072568;
           height: 100px;

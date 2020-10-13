@@ -193,6 +193,11 @@ color: #F91647;
         text-transform: capitalize;
         color: #FCE6E3;
       }
+      #deem {
+        padding-top: 30px;
+        padding-left: 90px;
+        float: right;
+    }
       * {
         margin: 0;
         padding: 0;

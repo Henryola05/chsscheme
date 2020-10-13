@@ -496,6 +496,23 @@ padding-top: 10px;
         margin-bottom: 30px;
         float: left;
     }
+    #deem {
+      padding-left: 90px;
+      float: right;
+  }
+  .head {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+font-weight: 600;
+font-size: 15.5733px;
+line-height: 23px;
+text-align: center;
+letter-spacing: 0.05em;
+text-transform: capitalize;
+color: #FFFFFF;
+padding-left: 100px;
+padding-top: 20px;
+  }
     #form {
         width: 100%;
         height: 30px;
@@ -747,7 +764,8 @@ padding-left: 30px;
              margin-bottom: 25px;
       }
       #scheme {
-        padding-left: 10px;
+        padding-left: 20px;
+        padding-top: 15px;
         float: left;
     }
     #drop {
