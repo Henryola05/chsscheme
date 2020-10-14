@@ -73,7 +73,6 @@ button, input, optgroup, select, textarea {
 }
 .input-group .form-check-input {
     float: left;
-    width: 120%;
     margin-bottom: 0;
 }
 .form-control {
@@ -109,11 +108,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     display: table;
     content: " ";
 }
-@media (min-width: 300px) and (max-width: 800px) {
-    .input-group .form-control {
-        width: 120%;
-    }
-}
 @media (min-width: 768px) {
 .col-sm-4 {
     width: 33.33333333%;
@@ -135,7 +129,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     position: relative;
     z-index: 2;
     float: left;
-    width: 120%;
     margin-bottom: 0;
 }
 .form-control {
