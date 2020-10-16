@@ -159,7 +159,7 @@ color: #F91647;
         color: #072568;
       }
       #form label {
-          width: 68%;
+          width: 75%;
           height: 40px;
           margin-bottom: 30px;
           float: left;
@@ -175,7 +175,7 @@ color: #F91647;
       }
       #deem {
         padding-top: 30px;
-        padding-left: 90px;
+        padding-left: 30px;
         float: right;
     }
       .flex-container{
@@ -229,6 +229,7 @@ color: #F91647;
         color: #072568;
         text-align: left;
         padding-left: 10px;
+        padding-top: 4px;
       }
       * {
         margin: 0;

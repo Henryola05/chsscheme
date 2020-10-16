@@ -468,6 +468,13 @@ text-transform: capitalize;
 color: #072568;
 padding-top: 10px;
 }
+.aop {
+  padding-left: 20px;
+}
+#zeem {
+  padding-left: 30px;
+  float: left;
+}
   @media (min-width: 300px) and (max-width: 800px) {
     body {
         font-family: 'Poppins', sans-serif;
@@ -479,6 +486,12 @@ padding-top: 10px;
         height: 30px;
         margin-bottom: 30px;
         float: left;
+    }
+    .jop {
+      padding-left: 10px;
+    }
+    .aop {
+      padding-left: 20px;
     }
     .a {
       font-family: 'Poppins', sans-serif;
@@ -500,6 +513,10 @@ padding-top: 10px;
       padding-left: 90px;
       float: left;
   }
+  #zeem {
+    padding-left: 30px;
+    float: left;
+}
   .head {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -749,7 +766,7 @@ padding-left: 30px;
              display: grid;
              width: 100%;
              grid-template-columns: 100%;
-             grid-template-rows: repeat(1, 1500px);
+             grid-template-rows: repeat(1, 1550px);
              grid-gap: 40px;
              margin-top: 40px;
              margin-bottom: 25px;
@@ -758,7 +775,7 @@ padding-left: 30px;
              display: grid;
              width: 100%;
              grid-template-columns: 100%;
-             grid-template-rows: repeat(1, 1400px);
+             grid-template-rows: repeat(1, 1450px);
              grid-gap: 40px;
              margin-top: 40px;
              margin-bottom: 25px;
