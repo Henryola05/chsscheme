@@ -178,6 +178,21 @@ text-transform: capitalize;
         color: #072568;
         width: 120%;
       }
+      #button {
+          margin-top: 20px;
+        background: #072568;
+        border-radius: 30px;
+        height: 48px;
+        width: 70%;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #FCE6E3;
+      }
       #sidenav {
         display: none;
       }
@@ -200,7 +215,7 @@ text-transform: capitalize;
         float: left;
     }
     #deem {
-      padding-left: 30px;
+      padding-left: 50px;
       float: left;
   }
     .shadow {

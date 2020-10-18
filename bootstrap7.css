@@ -148,7 +148,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 @media (min-width: 300px) and (max-width: 800px) {
     .input-group .form-control {
-        width: 80%;
+        width: 100%;
     }
     .form-control1 {
         width: 20%;
@@ -164,7 +164,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     }
     .form-control2 {
         display: block;
-        width: 80%;
+        width: 90%;
         height: 150px;
         padding: 6px 12px;
         font-size: 14px;
@@ -197,6 +197,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
         -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
         -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
         transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    }
+    .input-group {
+        position: relative;
+        display: table;
+        border-collapse: separate;
+        width: 100%;
     }
 }
 @media (min-width: 768px) {
