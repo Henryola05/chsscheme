@@ -90,6 +90,9 @@ button, input, select, textarea {
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
     display: block;
 }
+.col-sm-3 {
+    width: 40%;
+}
 .container {
     margin-right: auto;
     margin-left: auto;
@@ -148,7 +151,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 @media (min-width: 300px) and (max-width: 800px) {
     .input-group .form-control {
-        width: 100%;
+        width: 80%;
     }
     .form-control1 {
         width: 20%;
@@ -204,6 +207,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
         border-collapse: separate;
         width: 100%;
     }
+    .col-sm-3 {
+        width: 100%;
+    }
 }
 @media (min-width: 768px) {
 .col-sm-4 {
@@ -233,7 +239,4 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 .col-sm-2 {
     width: 16.66666667%;
-}
-.col-sm-3 {
-    width: 40%;
 }

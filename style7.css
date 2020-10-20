@@ -9,9 +9,16 @@ body {
 }
   #drop {
     display: block;
-    padding-left: 150px;
+    padding-left: 100px;
     padding-top: 40px;
     width: 70%;
+    float: left;
+  }
+  #drop1 {
+    display: block;
+    padding-left: 400px;
+    padding-top: 40px;
+    width: 85%;
     float: left;
   }
   .donate4{
@@ -51,7 +58,19 @@ text-transform: capitalize;
       width: 20%;
       float: left;
   }
+  #sidenav3 {
+      background: #072568;
+      height: 695px;
+      width: 20%;
+      float: left;
+      position: fixed;
+  }
   #sidenav h3 {
+      margin-left: 20px;
+      padding-top: 12px;
+      float: left;
+  }
+  #sidenav3 h3 {
       margin-left: 20px;
       padding-top: 12px;
       float: left;
@@ -102,7 +121,7 @@ color: #072568;
     padding-bottom: 20px;
   }
   #form1 label {
-      width: 22%;
+      width: 23%;
       height: 40px;
       margin-bottom: 30px;
       float: left;
@@ -115,7 +134,7 @@ color: #072568;
       padding-left: 360px;
   }
   #form2 label {
-      width: 115%;
+      width: 90%;
       height: 40px;
       margin-bottom: 30px;
       float: left;
@@ -145,7 +164,7 @@ color: #072568;
     padding-left: 20px;
   }
   #form {
-      width: 37%;
+      width: 40%;
       height: 30px;
       margin-bottom: 30px;
       float: left;
@@ -514,7 +533,7 @@ padding-top: 10px;
       float: left;
   }
   #zeem {
-    padding-left: 50px;
+    padding-left: 60px;
     float: left;
 }
   .head {
@@ -697,6 +716,9 @@ padding-left: 30px;
       #sidenav {
         display: none;
       }
+      #sidenav3 {
+        display: none;
+      }
       .donate5{
           width: 15%;
       height: 4px;
@@ -791,5 +813,12 @@ padding-left: 30px;
         padding-left: 30px;
         padding-right: 10px;
         padding-bottom: 50px;
+    }
+    #drop1 {
+      padding-top: 50px;
+      width: 100%;
+      padding-left: 30px;
+      padding-right: 10px;
+      padding-bottom: 50px;
     }
     }
