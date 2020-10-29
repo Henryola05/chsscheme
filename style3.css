@@ -88,7 +88,7 @@ color: #F91647;
   }
 #sidenav {
     background: #072568;
-    height: 695px;
+    height: 100vh;
     width: 20%;
     float: left;
 }
